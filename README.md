@@ -1,20 +1,12 @@
 # 자바 스프링 강의 2주차
 ### 목차
-- [프로젝트 생성](#-------)
-- [Web 진입점 설정](#web-------)
-- [API 구현](#api---)
-  * [빌더 패턴 (Builder Pattern)](#-------builder-pattern-)
+- [프로젝트 생성](#프로젝트-생성)
+- [Web 진입점 설정](#web-진입점-설정)
+- [API 구현](#api-구현)
+  * [빌더 패턴](#빌더-패턴)
   * [lombok](#lombok)
-  * [동적 타입](#-----)
+  * [동적 타입](#동적-타입)
   * [Rest API](#rest-api)
-    + [Article 객체 생성](#article------)
-    + [ArticleService 생성](#articleservice---)
-    + [ArticleController 생성](#articlecontroller---)
-    + [Article DTO 객체 생성](#article-dto------)
-    + [ArticleController Post구현](#articlecontroller-post--)
-    + [ArticleService findById 함수 구현](#articleservice-findbyid------)
-    + [Res 객체 추가](#res------)
-    + [ArticleController Get 구현](#articlecontroller-get---)
 ---
 ## 프로젝트 생성
 * https://start.spring.io
@@ -205,7 +197,7 @@ public class PingController {
 }
 ```
 ---
-## 빌더 패턴 (Builder Pattern)
+## 빌더 패턴
 * 불변성을 유지하고 생성자가 가지는 가독성 이슈를 해결하기 위해 사용
 ```java
 public class Response {
